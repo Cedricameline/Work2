@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+}
+
+
+#container_accueil{
+
+    width:1000px;
+    height: 750px;
+    margin:0 auto;
+    margin-top:2%;
+    background-color: #e0e0e0;
+    border: 8px solid #bdbdbd;
+    border-radius: 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+h1{
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.topnav {
+    overflow: hidden;
+    margin-left: 30%;
+    margin-top: 0%;
+    display: inline-block;
+}
+
+#button{
+    margin-top: -2%;
+    margin-left: 23%;
+}
+
+.cours{
+    background-color: whitesmoke;
+    width: 250px;
+    height: 500px;
+    font-size: 20px;
+    display:inline-block;
+    margin-left: 45%;  
+    margin-top: 5%;
+    margin-right: 1%;
+    border: 1px solid black;
+}
+
+.cours_2{
+    background-color: whitesmoke;
+    width: 250px;
+    height: 500px;
+    font-size: 20px;
+    display:inline-block; 
+    border: 1px solid black;
+}
