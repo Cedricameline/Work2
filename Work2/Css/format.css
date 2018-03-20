@@ -1,26 +1,18 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 19 mars 2018, 13:07:49
-    Author     : MSI
-*/
-
 body{
     background: white;
 }
 #container{
     width:400px;
+    text-align: center; 
     margin:0 auto;
-    margin-top:10%;
+    margin-top:18%;
 }
 /* Bordered form */
 form {
     width:100%;
     padding: 50px;
-    border: 1px solid #f1f1f1;
+    border: 8px solid #bdbdbd;
+    border-radius: 25px;
     background: #e0e0e0;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
@@ -36,12 +28,12 @@ input[type=text], input[type=password] {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     box-sizing: border-box;
 }
 
-/* Set a style for all buttons */
-input[type=submit] {
+/* Set a form for all buttons */
+/*input[type=submit] {
     background-color: grey;
     color: white;
     padding: 14px 20px;
@@ -49,9 +41,61 @@ input[type=submit] {
     border: none;
     cursor: pointer;
     width: 100%;
+    display:block;
+    width:180px;
+    line-height:14px;
+    text-align:center;
+    vertical-align:middle;
+    border-radius: 20px;
+}*/
+
+#LOGIN {
+    background-color: grey;
+    color: white;
+    padding: 14px 20px;
+    margin-right: auto;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    display:inline-block;
+    width:180px;
+    line-height:14px;
+    text-align:center;
+    vertical-align:middle;
+    border-radius: 20px;
 }
-input[type=submit]:hover {
+
+#LOGIN:hover {
     background-color: #bdbdbd;
     color: black;
     border: 1px solid #9a9a9a;
+    
 }
+
+#INSCRIPTION{
+    background-color: grey;
+    color: white;
+    padding: 14px 20px;
+    margin-left: 30px ;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    display:inline-block;
+    width:180px;
+    line-height:14px;
+    text-align:center;
+    vertical-align:middle;
+    border-radius: 20px;
+}
+
+#INSCRIPTION:hover {
+    background-color: #bdbdbd;
+    color: black;
+    border: 1px solid #9a9a9a;
+    
+}
+body { 
+max-width: 100%;
+background-image:url(image.jpg); 
+background-size: cover;
+} 
