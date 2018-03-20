@@ -2,14 +2,15 @@ body{
     background: white;
 }
 #container_inscription{
-    width:500px;
-    height: 420px;
+    width:550px;
+    height: 630px;
     margin:0 auto;
     margin-top:10%;
     background-color: #e0e0e0;
     border: 8px solid #bdbdbd;
     border-radius: 25px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    text-align: center;
 }
 #container_inscription h1{
     width: 38%;
@@ -41,4 +42,22 @@ input[type=submit]:hover {
     background-color: #bdbdbd;
     color: black;
     border: 1px solid #9a9a9a;
+}
+
+#date{
+    display: block;
+    padding: 14px 20px;
+    margin-left: 26%;
+    border: 1px solid #9a9a9a;
+    cursor: pointer;
+    width: 50%;
+}
+
+#description{
+    height: 100px;
+}
+
+#Valider{
+    width: 90%;
+    margin: 20px;
 }

@@ -11,12 +11,15 @@
             <!-- zone d'inscription -->
             <h1 id="Title">Inscription</h1>
             <br>
-            <input type="text" placeholder="Nom" name="username" required>  
-            <input type="text" placeholder="Prénom" name="username" required> 
-            <input type="text" placeholder="Ville" name="username" required> 
-            <input type="text" placeholder="Email" name="username" required> 
-            <input type="text" placeholder="Mot de passe" name="username" required> 
+            <input type="text" placeholder="Nom" name="nom" required>  
+            <input type="text" placeholder="Prénom" name="prenom" required> 
+            <input type="text" placeholder="Ville" name="ville" required> 
+            <input type="text" placeholder="Email" name="Email" required> 
+            <input type="text" placeholder="Mot de passe" name="mdp" required> 
             <input type="text" placeholder="Confirmer mot de passe" name="username" required>
+            <input type="date" id='date' name="date_naissance" required>
+            <input type="text" id='description' placeholder="Description" name="description" required>
+            <button id="Valider" type="button" class="btn btn-secondary">Valider</button>
         </div>
     </body>
 </html>
