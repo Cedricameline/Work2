@@ -1,7 +1,7 @@
 <html>
     <head>
         <!-- importer le fichier de style -->
-        <link href="nbproject/format.css" rel="stylesheet" type="text/css"/>
+        <link href="../Css/format.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <div id="container">
