@@ -10,14 +10,13 @@
     </head>
     <body>
         <?php
-        // put your code here
         ?>
         <div id="container_accueil">
             <h1>U'teach</h1>
             <div class="topnav">
                 <input type="text" placeholder="Search..">
             </div>
-            <div class="user"></div>
+            <div class="user"><?php echo '<p>', $lignes[0]['prenom'], '<br>', $lignes[0]['nom'], '</p>'; ?></div>
             <button id='button' type="button" class="btn btn-secondary">Deconnexion</button>
             <div class="cours">Cours actuel</div>
             <div class="cours_2">Compétences validées</div>
