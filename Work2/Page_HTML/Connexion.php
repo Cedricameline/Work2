@@ -14,7 +14,7 @@ if(isset($_POST['connexion'])){
             $_SESSION['id'] = $infouser['id'];
             $_SESSION['nom'] = $infouser['nom'];
             $_SESSION['prenom'] = $infouser['prenom'];
-            header("Location : profil.php?id=".$_SESSION['id']);
+            header('Location: Accueil.php'); 
         }else{
             $erreur = "Mauvais mail ou mot de passe";
         }
