@@ -20,6 +20,8 @@
             <button id='button' type="button" class="btn btn-secondary">Deconnexion</button>
             <div class="cours">Cours actuel</div>
             <div class="cours_2">Compétences validées</div>
+            <h2>Notifications</h2>
+            <div id="notif"></div>
         </div>
     </body>
 </html>

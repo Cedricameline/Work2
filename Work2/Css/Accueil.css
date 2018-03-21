@@ -52,3 +52,11 @@ h1{
     display:inline-block; 
     border: 1px solid black;
 }
+
+#notif{
+    background-color: whitesmoke;
+    width: 99%;
+    margin: 5px;
+    height: 70px;
+    border: 1px solid black;
+}
