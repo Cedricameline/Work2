@@ -29,9 +29,20 @@ h1{
     display: inline-block;
 }
 
+.user{
+    background-color: whitesmoke;
+    height: 40px;
+    width: 150px;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 1%;
+    border: 1px solid black;
+}
+
 #button{
-    margin-top: -2%;
-    margin-left: 23%;
+    margin-top: -3%;
+    margin-left: 2%;
+    display: inline-block;
 }
 
 .cours{
