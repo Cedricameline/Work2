@@ -24,7 +24,7 @@ form {
 }
 
 /* Full-width inputs */
-input[type=text], input[type=password] {
+input {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -33,22 +33,7 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
 }
 
-/* Set a form for all buttons */
-/*input[type=submit] {
-    background-color: grey;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    display:block;
-    width:180px;
-    line-height:14px;
-    text-align:center;
-    vertical-align:middle;
-    border-radius: 20px;
-}*/
+
 
 #LOGIN {
     background-color: grey;
