@@ -1,0 +1,568 @@
+JAVAWEB;Langages;Java 6/7
+JAVAWEB;Langages;Java 8
+JAVAWEB;Langages;JavaScript
+JAVAWEB;Langages;Groovy
+JAVAWEB;Langages;Scala
+JAVAWEB;Langages;C
+JAVAWEB;Langages;C++
+JAVAWEB;Langages;C#
+JAVAWEB;Langages;Python
+JAVAWEB;Langages;Ruby
+JAVAWEB;Langages;Perl
+JAVAWEB;Langages;GO
+JAVAWEB;Langages;Rust
+JAVAWEB;Langages;Play
+JAVAWEB;Langages;TypeScript
+JAVAWEB;Langages;HTML
+JAVAWEB;Langages;PHP 5
+JAVAWEB;Langages;PHP 7
+JAVAWEB;Langages;SQL
+JAVAWEB;Langages;PL/SQL
+JAVAWEB;Langages;Shells Unix/Linux
+JAVAWEB;Langages;GRAFCET
+JAVAWEB;Langages;Langage ST
+JAVAWEB;Langages;Ladder
+JAVAWEB;Langages;VHDL
+JAVAWEB;Langages;Assembleur
+JAVAWEB;Langages;Progress
+JAVAWEB;Langages;Delphi
+JAVAWEB;Langages;Bash/Zsh
+JAVAWEB;Frameworks FrontEnd;Angular JS (v1)
+JAVAWEB;Frameworks FrontEnd;Angular (v2 et ultérieures)
+JAVAWEB;Frameworks FrontEnd;Jquery
+JAVAWEB;Frameworks FrontEnd;React
+JAVAWEB;Frameworks FrontEnd;Redux / Flux
+JAVAWEB;Frameworks FrontEnd;Vue
+JAVAWEB;Frameworks FrontEnd;Polymer
+JAVAWEB;Frameworks FrontEnd;Ember
+JAVAWEB;Frameworks FrontEnd;Aurelia
+JAVAWEB;Frameworks FrontEnd;Backbone / Marionette
+JAVAWEB;Frameworks FrontEnd;Knockout
+JAVAWEB;Frameworks FrontEnd;Meteor
+JAVAWEB;Frameworks FrontEnd;Underscore, Ramda, Lodash
+JAVAWEB;Frameworks FrontEnd;RxJS
+JAVAWEB;Frameworks FrontEnd;Handlebars
+JAVAWEB;UI / UX;Sketch
+JAVAWEB;UI / UX;Illustrator, Photoshop
+JAVAWEB;UI / UX;KSS, SC5
+JAVAWEB;UI / UX;PostCSS
+JAVAWEB;UI / UX;Sass
+JAVAWEB;UI / UX;Less
+JAVAWEB;UI / UX;Accessibilité
+JAVAWEB;UI / UX;Responsive Design
+JAVAWEB;UI / UX;CSS3 (Ffexbox, grid layout)
+JAVAWEB;"Industrialisation 
+FrontEnd";WebPack
+JAVAWEB;"Industrialisation 
+FrontEnd";Browserify
+JAVAWEB;"Industrialisation 
+FrontEnd";Fusebox
+JAVAWEB;"Industrialisation 
+FrontEnd";Gulp
+JAVAWEB;"Industrialisation 
+FrontEnd";Grunt
+JAVAWEB;"Industrialisation 
+FrontEnd";NPM
+JAVAWEB;"Industrialisation 
+FrontEnd";Brunch
+JAVAWEB;"Frameworks 
+BackEnd";Spring Framework
+JAVAWEB;"Frameworks 
+BackEnd";Hibernate
+JAVAWEB;"Frameworks 
+BackEnd";Struts 2
+JAVAWEB;"Frameworks 
+BackEnd";Vert.x
+JAVAWEB;"Frameworks 
+BackEnd";NodeJS
+JAVAWEB;"Frameworks 
+BackEnd";RxJava
+JAVAWEB;"Frameworks 
+BackEnd";Java FX
+JAVAWEB;"Frameworks 
+BackEnd";Netflix OSS
+JAVAWEB;"Frameworks 
+BackEnd";Ibatis
+JAVAWEB;"Frameworks 
+BackEnd";JSF
+JAVAWEB;"Frameworks 
+BackEnd";Vaadin
+JAVAWEB;"Frameworks 
+BackEnd";Liquibase
+JAVAWEB;"Frameworks 
+BackEnd";Symfony 2 / 3
+JAVAWEB;"Frameworks 
+BackEnd";Zend
+JAVAWEB;"Frameworks 
+BackEnd";Django
+JAVAWEB;Webservices;REST / JSON
+JAVAWEB;Webservices;SOAP / XML
+JAVAWEB;Webservices;Jersey
+JAVAWEB;Webservices;CXF
+JAVAWEB;Webservices;Restlet
+JAVAWEB;"Normes et 
+standards";W3C
+JAVAWEB;"Normes et 
+standards";OWASP
+JAVAWEB;"Normes et 
+standards";JEE
+JAVAWEB;"Normes et 
+standards";HTTP
+JAVAWEB;"Normes et 
+standards";JMS
+JAVAWEB;"Normes et 
+standards";OSGI
+JAVAWEB;"Normes et 
+standards";AMQP
+JAVAWEB;"Normes et 
+standards";WebSocket
+JAVAWEB;"Normes et 
+standards";Stomp
+JAVAWEB;"Normes et 
+standards";NF C15-100
+JAVAWEB;Middlewares;RabbitMQ
+JAVAWEB;Middlewares;Kafka
+JAVAWEB;Middlewares;ActiveMQ
+JAVAWEB;Middlewares;JMS
+JAVAWEB;Middlewares;Mule ESB
+JAVAWEB;Middlewares;Fuse ESB
+JAVAWEB;Middlewares;Talend
+JAVAWEB;"Sécurité / 
+Authentification";CAS
+JAVAWEB;"Sécurité / 
+Authentification";SAML
+JAVAWEB;"Sécurité / 
+Authentification";OAuth
+JAVAWEB;"Sécurité / 
+Authentification";OpenId
+JAVAWEB;"Sécurité / 
+Authentification";KeyCloak
+JAVAWEB;"Sécurité / 
+Authentification";Shibboleth
+JAVAWEB;"Sécurité / 
+Authentification";Spring Security
+JAVAWEB;"Serveurs
+d'applications";Tomcat 6
+JAVAWEB;"Serveurs
+d'applications";Tomcat 8
+JAVAWEB;"Serveurs
+d'applications";TomEE
+JAVAWEB;"Serveurs
+d'applications";Jboss / WildFly
+JAVAWEB;"Serveurs
+d'applications";Jetty
+JAVAWEB;"Serveurs
+d'applications";Websphere
+JAVAWEB;"Serveurs
+d'applications";Glassfish
+JAVAWEB;"Serveurs
+d'applications";Jonas
+JAVAWEB;"Serveurs
+d'applications";Apache HTTPD
+JAVAWEB;"Serveurs
+d'applications";Nginx
+JAVAWEB;Tests;Junit, Nunit, PhpUnit, DbUnit…
+JAVAWEB;Tests;Selenium, FitNesse, PhantomJS, Nighthawk, Cucumber…
+JAVAWEB;Tests;Mocha, Jasmine, Jest, Karma, Chai…
+JAVAWEB;Tests;Mockito, PowerMock, Sinon.JS…
+JAVAWEB;Tests;Istanbul, Surefire…
+JAVAWEB;Tests;Rembrandt.JS
+JAVAWEB;Tests;JProfiler, JVisualVM, Yourkit, Dynatrace…
+JAVAWEB;Tests;JMeter, Gatling…
+JAVAWEB;Tests;ChaosMonkey, Simian Army…
+JAVAWEB;"Déploiement et 
+supervision";Ansible
+JAVAWEB;"Déploiement et 
+supervision";XLDeploy
+JAVAWEB;"Déploiement et 
+supervision";RunDeck
+JAVAWEB;"Déploiement et 
+supervision";Chef
+JAVAWEB;"Déploiement et 
+supervision";Puppet
+JAVAWEB;"Déploiement et 
+supervision";ELK
+JAVAWEB;"Déploiement et 
+supervision";Grafana
+JAVAWEB;"Déploiement et 
+supervision";CollectD
+JAVAWEB;"Déploiement et 
+supervision";SaltStack
+JAVAWEB;"Déploiement et 
+supervision";AWS
+JAVAWEB;"Déploiement et 
+supervision";Kibana
+JAVAWEB;OS;Windows
+JAVAWEB;OS;Linux Debian
+JAVAWEB;OS;Linux CentOS
+JAVAWEB;OS;Sun Solaris
+JAVAWEB;IDE;IntelliJ
+JAVAWEB;IDE;Eclipse
+JAVAWEB;IDE;NetBeans
+JAVAWEB;IDE;Visual Studio Code
+JAVAWEB;IDE;Atom
+JAVAWEB;IDE;WebStorm / PHPStorm
+JAVAWEB;IDE;Visual Studio
+JAVAWEB;IDE;STEP 7
+JAVAWEB;IDE;PL7 PRO/UNITY
+JAVAWEB;IDE;HEW2
+JAVAWEB;IDE;MPLAB
+JAVAWEB;IDE;ISaGRAF
+MICROSOFT;.Net;WinForm
+MICROSOFT;.Net;WPF
+MICROSOFT;.Net;UWP
+MICROSOFT;.Net;XAML
+MICROSOFT;.Net;MVVM
+MICROSOFT;.Net;Web Forms
+MICROSOFT;.Net;ASP.Net MVC
+MICROSOFT;.Net;API WCF
+MICROSOFT;.Net;API REST
+MICROSOFT;.Net;Entity Framework
+MICROSOFT;.Net;Framework ADO.NET (couche base de Entity Framework et LINQ)
+MICROSOFT;BDD;Requetes SQL Server
+MICROSOFT;BDD;Administration SQL Server
+MICROSOFT;BDD;Implémenter un entrepot de données
+MICROSOFT;BDD;SSIS (Intégration services)
+MICROSOFT;BDD;SSAS (Analysis services)
+MICROSOFT;BDD;SSRS (Reporting services)
+MICROSOFT;BDD;Power Pivot
+MICROSOFT;"SP 
+(on-prem) 
+Infra";Installation et configuration
+MICROSOFT;"SP 
+(on-prem) 
+Infra";Définition d'architecture
+MICROSOFT;"SP 
+(on-prem) 
+Infra";Configuration de la recherche
+MICROSOFT;"SP 
+(on-prem) 
+Infra";Powershell
+MICROSOFT;"SharePoint 
+(on-premise) - Dev";Fonctionnel et Paramétrage
+MICROSOFT;"SharePoint 
+(on-premise) - Dev";SharePoint Add-ins
+MICROSOFT;"SharePoint 
+(on-premise) - Dev";CAML
+MICROSOFT;"SharePoint 
+(on-premise) - Dev";SPLINQ
+MICROSOFT;"SharePoint 
+(on-premise) - Dev";JSOM
+MICROSOFT;"SharePoint 
+(on-premise) - Dev";CSOM
+MICROSOFT;"SharePoint 
+(on-premise) - Dev";Timer job
+MICROSOFT;"SharePoint 
+(on-premise) - Dev";BCS
+MICROSOFT;"SharePoint 
+(on-premise) - Dev";Search
+MICROSOFT;"O365 - Exploitation/ 
+Support";Exchange Online
+MICROSOFT;"O365 - Exploitation/ 
+Support";Skype/Lync
+MICROSOFT;"O365 - Exploitation/ 
+Support";Sharepoint Online
+MICROSOFT;"O365 - Exploitation/ 
+Support";Yammer
+MICROSOFT;"O365 - Exploitation/ 
+Support";One Drive
+MICROSOFT;"O365 - Exploitation/ 
+Support";Delve
+MICROSOFT;"O365 - Exploitation/ 
+Support";Planner
+MICROSOFT;"O365 - Exploitation/ 
+Support";Sway
+MICROSOFT;"O365 - Exploitation/ 
+Support";Office Groups
+MICROSOFT;"O365 - Exploitation/ 
+Support";Azure RMS
+MICROSOFT;"O365 - Exploitation/ 
+Support";Power BI
+MICROSOFT;O365 - Dev;Fonctionnel et Paramétrage SP
+MICROSOFT;O365 - Dev;SharePoint Add-ins
+MICROSOFT;O365 - Dev;OfficeDev PnP
+MICROSOFT;O365 - Dev;Microsoft Graph
+MICROSOFT;O365 - Dev;Power Apps
+MICROSOFT;O365 - Dev;Flow
+MICROSOFT;O365 - Dev;Power BI
+MICROSOFT;"Systèmes et 
+réseaux";Installation Windows Server
+MICROSOFT;"Systèmes et 
+réseaux";Administration Windows Server
+MICROSOFT;"Systèmes et 
+réseaux";Administration AD
+MICROSOFT;"Systèmes et 
+réseaux";Gestion réseaux (DNS, DHCP,…)
+MICROSOFT;"Systèmes et 
+réseaux";Gestion de la sécurité (GPO,…)
+MICROSOFT;"Systèmes et 
+réseaux";Gestion des devices mobiles
+MICROSOFT;"Systèmes et 
+réseaux";Virtualisation (Hyper -v)
+MICROSOFT;"Systèmes et 
+réseaux";AD RMS
+MICROSOFT;"Systèmes et 
+réseaux";AD FS
+MICROSOFT;"Systèmes et 
+réseaux";Network Load Balancing
+MICROSOFT;"Systèmes et 
+réseaux";Failover Clustering
+MICROSOFT;"Systèmes et 
+réseaux";System Center
+MICROSOFT;Exchange;Installation et configuration
+MICROSOFT;Exchange;Administration
+MICROSOFT;Exchange;Montée de version
+MICROSOFT;Exchange;Migration d'un autre système de messagerie
+MICROSOFT;Exchange;Outils migration DELL
+MICROSOFT;Exchange;Outils migration Binary Tree
+MICROSOFT;Exchange;Outils migration Refresh IT
+MICROSOFT;Exchange;Intégration avec Exchange online
+MICROSOFT;Azure;
+MICROSOFT;Environnement;Visual studio
+MICROSOFT;Environnement;"Team Foundation Server 
+(installation, administration serveur TFS)"
+MICROSOFT;Environnement;"Team Foundation Server 
+(administration niveau collection/projet, gestion des branches)"
+MICROSOFT;Environnement;"Team Foundation Server 
+(utilisation basique)"
+MICROSOFT;Environnement;"Team Foundation Server 
+(utilisation avancée)"
+MICROSOFT;Environnement;Test Manager
+MICROSOFT;Environnement;Sharepoint Designer
+MICROSOFT;Environnement;InfoPath
+MICROSOFT;Environnement;Visual studio code
+MICROSOFT;Environnement;Power Apps Designer
+MICROSOFT;Environnement;Power BI Designer
+PHP;Configuration;Configuration d'un serveur Apache ou NGNIX 
+PHP;Configuration;Intégrer un projet dans une plateforme de développement (LAMP, XAMPP, MAMP)
+PHP;Language PHP;Bases PHP (variables, loops, tabs, functions, …)
+PHP;Language PHP;Connaissance de l'objet PHP (Classe, héritage, ...)
+PHP;Language PHP;Créer un site en MVC
+PHP;Language PHP;Utiliser PDO
+PHP;Doctrine;Création d'entity
+PHP;Doctrine;Effectuer un CRUD avec des entity
+PHP;Symfony;Utiliser Composer (Gestionnaire de dépendances)
+PHP;Symfony;Bases de Symfony (routeur, Controller, View avec Twig)
+PHP;Symfony;Gestion de formulaires, intégration de bundles externes, gestion de users 
+PHP;Symfony;Déployer un projet symfony
+PHP;Drupal;Créer des Hooks, des modules, des templates
+PHP;Drupal;Administration, mise à jour, …
+PHP;Wordpress;Installation, configuration, administration
+PHP;Wordpress;Créer des templates
+Delivery;Data;Oracle
+Delivery;Data;MySQL / MariaDB
+Delivery;Data;PostgreSQL
+Delivery;Data;SQL Server
+Delivery;Data;Redis
+Delivery;Data;Cassandra
+Delivery;Data;MongoDB
+Delivery;Data;JackRabbit
+Delivery;Data;Graphite
+Delivery;Data;ElasticSearch
+Delivery;Data;CouchBase
+Delivery;Data;H2
+Delivery;Data;Progress
+Delivery;Data;SyBase
+Delivery;Intégration;Maven
+Delivery;Intégration;Ant
+Delivery;Intégration;Gradle
+Delivery;Intégration;JHipster
+Delivery;Intégration;Spring Boot
+Delivery;Intégration;Jenkins
+Delivery;Intégration;Sonar
+Delivery;Intégration;Docker
+Delivery;Intégration;Artifactory/Nexus
+Delivery;Intégration;Composer (PHP)
+Delivery;SCM;SVN
+Delivery;SCM;Git
+Delivery;SCM;Clearcase
+Delivery;SCM;TFS
+"UO Conception - 
+Réalisation";Conception générale ou détaillée d'applications;Élaborer des scénarii de faisabilité technique en respectant les normes et les standards en vigueur au sein de la DSI Centrale
+"UO Conception - 
+Réalisation";Conception générale ou détaillée d'applications;Participer à l’analyse fonctionnelle et à l’élaboration du cahier des charges si besoin
+"UO Conception - 
+Réalisation";Conception générale ou détaillée d'applications;Concevoir une application
+"UO Conception - 
+Réalisation";Conception générale ou détaillée d'applications;Prendre en compte les règles d’accessibilté pour atteindre le niveau RGAA
+"UO Conception - 
+Réalisation";Conception générale ou détaillée d'applications;Participer aux réunions projets, animer des ateliers de travail ou de restitution
+"UO Conception - 
+Réalisation";Conception générale ou détaillée d'applications;Alimenter les outils de capitalisation, d’industrialisation et de mutualisation : Guide de bonnes pratiques, réseau social d’entreprise, bilan de projets, retour d’expérience
+"UO Conception - 
+Réalisation";"Réalisation 
+d'applications";Paramétrer et développer des applications en suivant les normes et standarts de la DSI Centrale ainsi que les règles d’accessibilité RGAA
+"UO Conception - 
+Réalisation";"Réalisation 
+d'applications";Réaliser les tests unitaires sur chacunes des modifications, évolutions apportées
+"UO Conception - 
+Réalisation";"Réalisation 
+d'applications";Réaliser des Proof of Concept
+"UO Conception - 
+Réalisation";"Réalisation 
+d'applications";Participer aux réunions projets
+"UO Conception - 
+Réalisation";"Réalisation 
+d'applications";Identifier et analyser les anomalies
+"UO Conception - 
+Réalisation";"Réalisation 
+d'applications";Intervenir dans la résolution d’incidents ou dans la gestion des problèmes
+"UO Conception - 
+Réalisation";"Réalisation 
+d'applications";Utiliser et alimenter les outillage visant l’industrialisation de la filière technologique mise en oeuvre
+"UO Conception - 
+Réalisation";"Réalisation 
+d'applications";Solliciter les experts d’un domaine technique et mener des ateliers de travail
+"UO Conception - 
+Réalisation";MCO des applications;Prendre en charge les incidents dans les délais convenus avec le client
+"UO Conception - 
+Réalisation";MCO des applications;Corriger les anomalies remontées par les utilisateurs
+"UO Conception - 
+Réalisation";MCO des applications;Réaliser les travaux liés à une migration techniques du SI
+"UO Conception - 
+Réalisation";MCO des applications;Administrer les applications fonctionnellement et techniquement
+"UO Conception - 
+Réalisation";MCO des applications;Optimiser le code dans un souci d’amelioration de la performance
+"UO Conception - 
+Réalisation";MCO des applications;Intervenir en support à la production dans le traitement des incidents et la gestion des problèmes
+"UO Conception - 
+Réalisation";MCO des applications;Développer les évolutions mineures demandées par le client
+UO Expertise;Expertise;Réalisation d’études techniques
+UO Expertise;Expertise;Participation au choix d'architecture applicative sur les nouveaux projets et sur les applications existantes dans le cadre de leur maintenance adaptative
+UO Expertise;Expertise;Assistance à la rédaction des dossiers de conception, à la relecture et validation des spécifications techniques émises par les équipes de réalisation
+UO Expertise;Expertise;Assistance (expertise) des développeurs et intervention en support N1/N2, notamment en réalisant les travaux les plus complexes
+UO Expertise;Expertise;Auditer le code et apporte ses préconisations
+UO Expertise;Expertise;Apporter des amélioration dans le code, les tests, les configurations…
+UO Expertise;Expertise;Réaliser des Proof of Concept et présenter les résultats
+UO Expertise;Expertise;Participer à la configuration des outils de développement, des composants middleware, …
+UO Expertise;Expertise;Participer à l’homologation : Green, accessibilité, sécurité…
+UO Expertise;Expertise;Faire part des évolutions du marché,des comparatifs de solutions, des études d’opportunité.
+UO Expertise;Expertise;Etre force de proposition pour la création ou l’évolution de plateformes mutualisées en fonction de l’évolution du marché et des nouveaux besoins
+UO Expertise;Expertise;Proposer, construire, alimenter et diffuser les outils de capitalisation, d’industrialisation et de mutualisation tels queles guides de bonnes pratiques, le réseau social d’entreprise, des bilans de projets, des retours d’expérience
+UO Expertise;Expertise;Elaborer des abaques de chiffrage
+UO Expertise;Expertise;Participer au développement des compétences des collaborateurs pour améliorer les connaissances et le savoir- faire collectifs
+UO Expertise;Expertise;Former
+UO Expertise;Expertise;Animer le support aux équipes techniques
+UO Expertise;Expertise SGBD;"Le périmètre technologique de l’expertise SGBD s’articule autour des produits principaux suivants :
+- Oracle
+- SQL Server
+- MySQL
+- SyBase"
+UO Expertise;Expertise SGBD;Apporter de l’expertise sur les projets en cours de développement
+UO Expertise;Expertise SGBD;Apporter de l’expertise sur des problématiques en production
+UO Expertise;Expertise SGBD;Participer au dimensionnement d’une architecture
+UO Expertise;Expertise SGBD;Choisir une solution
+UO Expertise;Expertise SGBD;Apporter des connaissances sur l’état de l’art du marché
+UO Expertise;Expertise SGBD;Auditer le code et préconiser des améliorations
+UO Expertise;Expertise SGBD;Apporter de l’expertise/support lors de migrations de données
+UO Expertise;"Analyse de données
+(pour le lot 2)";Mener des analyses de données (volumétriques, de formats variés,…) en s’appuyant sur les technologies du Big Data (du Data Lake à la Data Viz)
+UO Expertise;"Analyse de données
+(pour le lot 2)";Fournir un appui analytique à la conduite d’exploration et à l’analyse complexe de données
+UO Expertise;"Analyse de données
+(pour le lot 2)";Donner de la valeur ajoutée à la donnée
+UO Expertise;"Analyse de données
+(pour le lot 2)";"Créer des algorithmes de recherche, des règles fonctionnellesqui permettent d'explorer les
+données .et industrialiser le procédé si besoin"
+UO Expertise;"Analyse de données
+(pour le lot 2)";Préconiser les outils de visualisation adaptés pour mettre l’information à disposition
+UO Recette;"Préparation à la 
+recette technique";Analyser les entrants
+UO Recette;"Préparation à la 
+recette technique";Proposer la stratégie de recette et estimer la charge et les contraintes associées
+UO Recette;"Préparation à la 
+recette technique";Plannifier l’ensemble des actions liées à la recette
+UO Recette;"Préparation à la 
+recette technique";Mettre à disposition les environnements nécessaires
+UO Recette;"Préparation à la 
+recette technique";Rédiger un cahier de recette, tenant compte des règles d’accessibilité RGAA
+UO Recette;"Préparation à la 
+recette technique";Préparer un jeu de données
+UO Recette;"Exécution de la 
+recette technique";Dérouler un cahier de recette
+UO Recette;"Exécution de la 
+recette technique";Remonter les anomalies détectées
+UO Recette;"Exécution de la 
+recette technique";Suivre l’avancement des correctifs
+UO Recette;"Exécution de la 
+recette technique";Actualiser le reporting
+UO Recette;"Exécution de la 
+recette technique";Rédiger un bilan des tests comprenant les indicateurs clés
+UO Recette;"Exécution de la 
+recette technique";Rédiger les PV
+UO Recette;"Exécution de la 
+recette technique";Participer aux réunions projets
+UO Administration;"Administration 
+des environnements";Administrer la couche logicielle des environnements de développement
+UO Administration;"Administration 
+des environnements";Administrer les composants BI techniques et/ou fonctionnels (LOT2)
+UO Administration;"Administration 
+des environnements";Administrer les composants CMS techniques et/ou fonctionnels (LOT1)
+UO Administration;"Administration 
+des environnements";Rédiger un dossier d’exploitation
+UO Conduite de projets;"Conduite 
+de projets";Établir ou contribuer aux études amont du projet
+UO Conduite de projets;"Conduite 
+de projets";Concevoir le cahier des charges du projet et les spécifications fonctionnelles générales et détaillées, ou y contribuer
+UO Conduite de projets;"Conduite 
+de projets";Établir le Plan de Management du Projet (organisation, gouvernance, responsabilité, livrables, calendrier,…) dans le respect des bonnes pratiques
+UO Conduite de projets;"Conduite 
+de projets";Établir le contrat de projet
+UO Conduite de projets;"Conduite 
+de projets";Planifier les travaux, évaluer les moyens à mettre en oeuvre (humains, techniques, financiers…)
+UO Conduite de projets;"Conduite 
+de projets";Constituer et organiser l’ensemble de l’équipe projet et répartir les tâches. Mobiliser, fédérer et responsabiliser les acteurs
+UO Conduite de projets;"Conduite 
+de projets";Piloter l’avancement des travaux du projet (coûts, délais, risques).
+UO Conduite de projets;"Conduite 
+de projets";Garantir la prise en compte de l’ensemble des normes de développement et le suivi des processus de la Poste
+UO Conduite de projets;"Conduite 
+de projets";Garantir la bonne exploitabilité du système et sa pérennité
+UO Conduite de projets;"Conduite 
+de projets";Proposer des mesures correctives et mettre en oeuvre celles qui relèvent de sa compétence
+UO Conduite de projets;"Conduite 
+de projets";Animer et rendre compte aux instances du projet
+UO Conduite de projets;"Conduite 
+de projets";Gérer les relations avec les sous-traitants
+UO Conduite de projets;"Conduite 
+de projets";Gérer et planifier les changements et coordonner leur mise en oeuvre
+UO Conduite de projets;"Conduite 
+de projets";Réaliser ou valider les livrables associés aux différentes phases du projet
+UO Conduite de projets;"Conduite 
+de projets";Vérifier la qualité des travaux et leur conformité aux besoins du client
+UO Conduite de projets;"Conduite 
+de projets";Contribuer à la conduite du changement, à la mise en oeuvre du support et à l’accompagnement des utilisateurs
+UO Conduite de projets;"Conduite 
+de projets";Organiser les échanges entre les différents acteurs du projet et en vérifier la qualité
+UO Conduite de projets;"Conduite 
+de projets";Arbitrer dans son domaine de compétence les divergences entre les équipes et autres intervenants
+"UO Direction 
+de projets";"Direction 
+de projets";Gestion de projets
+"UO Direction 
+de projets";"Direction 
+de projets";Participer aux décisions stratégiques pour le projet
+"UO Direction 
+de projets";"Direction 
+de projets";Piloter la qualité de la prestation
+"UO Direction 
+de projets";"Direction 
+de projets";Conduire le changement
+UO AMOA;"Assitance à 
+Maîtrise d'ouvrage";Rédiger l’expression de besoins
+UO AMOA;"Assitance à 
+Maîtrise d'ouvrage";Organiser et animer des ateliers
+UO AMOA;"Assitance à 
+Maîtrise d'ouvrage";Etudier l’existant et les impacts liés au projet
+UO AMOA;"Assitance à 
+Maîtrise d'ouvrage";Etudier les solutions techniques répondant aux besoins fonctionnels tout en maîtrisant les coûts
+UO AMOA;"Assitance à 
+Maîtrise d'ouvrage";Piloter la réalisation de maquettes
+UO AMOA;"Assitance à 
+Maîtrise d'ouvrage";Prendre en charge la conception générale
+UO AMOA;"Assitance à 
+Maîtrise d'ouvrage";Construire un plan de communication
+UO AMOA;"Assitance à 
+Maîtrise d'ouvrage";Former les utilisateurs
+UO AMOA;"Assitance à 
+Maîtrise d'ouvrage";Accompagner la MOA lors de la recette

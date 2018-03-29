@@ -1,0 +1,102 @@
+body { 
+max-width: 100%;
+background-image:url(image.jpg); 
+background-size: cover;
+}
+
+#container_cours{
+    width:1250px;
+    height: 630px;
+    margin: auto;
+    margin-top: 3%;
+    background-color: #e0e0e0;
+    border: 8px solid #bdbdbd;
+    border-radius: 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    text-align: center;
+}
+
+#conteneur_scrolable {
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+#conteneur_enseignants {
+    height: 82%;
+    width: 40%;
+    border: solid black;
+    margin-top: 7%;
+    margin-left: 2%;
+    background-color: whitesmoke;
+}
+
+h1 {
+    position: absolute;
+    margin-top: 0%;
+    left: 11%;
+}
+
+h2 {
+    position: absolute;
+    top: 14%;
+    left: 11%;
+    width: 50%;
+    text-align: left;
+}
+
+#enseignants {
+    border-collapse: collapse;
+    background-color: whitesmoke;
+}
+
+.enseignants {
+    width: 100%;
+    border-right: solid black;
+    border-bottom: 1px solid black;
+    margin-left: 0px;
+    background-color: whitesmoke;
+}
+
+.notes {
+    width: 100%;
+    border-bottom: 1px solid black;
+    background-color: whitesmoke;
+}
+
+.description{
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    border: solid black;
+    top: 18%;;
+    left: 47%;
+    background-color: whitesmoke;
+}
+
+#reservation{
+    position: absolute;
+    top: 70%;
+    background-color: blue;
+}
+
+h3 {
+    text-align: left;
+    font-size: 20px;
+}
+
+p {
+    text-align: left;
+    font-size: 30px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+#note {
+    margin-top: 25%
+}
+
+#noter {
+    margin-top: 25%;
+}

@@ -1,13 +1,13 @@
 <?php 
 session_start();
 // connexion a la basse de donnée
-$bdd = new PDO('mysql:host=localhost;dbname=workshop2;charset=utf8','root','');
+$bdd = new PDO('mysql:host=localhost;dbname=workshop;charset=utf8','root','');
 if(isset($_GET['id']) AND $_GET['id'] > 0){
     $getid = intval($_GET['id']);
-    $requser = $bdd->prepare('SELECT * FROM users WHERE id= ? ');
+    $requser = $bdd->prepare('SELECT * FROM utilisateurs WHERE id= ? ');
     $requser->execute(array($getid));
-    $infouser = $requser->fetch();
-}
+    $userinfo = $requser->fetch();
+
 ?>
 
 <html>
@@ -18,17 +18,27 @@ if(isset($_GET['id']) AND $_GET['id'] > 0){
     </head>
     <body>
         <div id="container">
-            <!-- zone de connexion -->
-            <h1><font size="8" face="Colonna MT" color="black"><i>Profil</i></font></h1>                              
-            <br>
-            Nom = <?php echo $infouser['nom'] ?>
-            <br>
-            Mail = <?php echo $infouser['mail'] ?>
-            <?php
-            if(isset($erreur)){
-                echo '<font color="red">'.$erreur."</font>";
-            }
-            ?>
+        
+        <!-- zone de connexion -->
+                                          
+        <h2>Profil de <?php echo $userinfo['nom']; ?></h2>
+         <br /><br />
+         nom = <?php echo $userinfo['nom']; ?>
+         <br />
+         Mail = <?php echo $userinfo['mail']; ?>
+         <br />
+         <?php
+         if(isset($_SESSION['id']) AND $userinfo['id'] == $_SESSION['id']) {
+         ?>
+         <br />
+         <a href="editionprofil.php">Editer mon profil</a>
+         <a href="deconnexion.php">Se déconnecter</a>
+         <?php
+         }
+         ?>
         </div>
     </body>
 </html>
+<?php 
+}
+?>

@@ -1,12 +1,12 @@
 <?php 
 session_start();
 // connexion a la basse de donnée
-$bdd = new PDO('mysql:host=localhost;dbname=workshop2;charset=utf8','root','');
+$bdd = new PDO('mysql:host=localhost;dbname=workshop;charset=utf8','root','');
 if(isset($_POST['connexion'])){
-    $mailconnect=htmlspecialchars($_POST['mail']);
+    $mailconnect=htmlspecialchars($_POST['Email']);
     $mdpconnect=sha1($_POST['mdp']);
     if(!empty($mailconnect) AND !empty($mdpconnect)){
-        $requser = $bdd->prepare("SELECT * FROM users WHERE mail =? AND motdepasse=? ");
+        $requser = $bdd->prepare("SELECT * FROM utilisateurs WHERE Email =? AND mdp=? ");
         $requser->execute(array($mailconnect,$mdpconnect));
         $userexist = $requser->rowCount();
         if($userexist==1){
@@ -21,11 +21,9 @@ if(isset($_POST['connexion'])){
     }else{
         $erreur='Tous les champs doivent etre completes !';
     }
+    
 }
-/*
-if(isset($_POST['INSCRIPTION'])){
-    header("Location : Inscription.php");
-}*/
+
 ?>
 
 <html>
@@ -37,13 +35,15 @@ if(isset($_POST['INSCRIPTION'])){
     <body>
         <div id="container">
             <!-- zone de connexion -->
-            <form method="POST" action="">
+            <form method="POST" action="" id="form">
 
                 <h1><font size="8" face="Colonna MT" color="black"><i>U'Teach</i></font></h1>                              
-                <input type="email" placeholder="Mail" name="mail">               
+                <input type="email" placeholder="Mail" name="Email">               
                 <input type="password" placeholder="Mot de passe" name="mdp" >
                 <input type="submit" id='LOGIN' name="connexion" value='LOGIN' >
-                <input type="submit" id='INSCRIPTION' value="INSCRIPTION">
+                <input type="button" id='INSCRIPTION' value="INSCRIPTION" onclick="javascript:location.href='Inscription.php'">
+
+                
             </form>
             <?php
             if(isset($erreur)){

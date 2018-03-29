@@ -9,7 +9,7 @@ body{
     margin-top:18%;
 }
 /* Bordered form */
-form {
+#form {
     width:100%;
     padding: 50px;
     border: 8px solid #bdbdbd;
@@ -85,3 +85,4 @@ max-width: 100%;
 background-image:url(image.jpg); 
 background-size: cover;
 } 
+

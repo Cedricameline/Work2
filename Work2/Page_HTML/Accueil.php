@@ -1,14 +1,9 @@
 <!DOCTYPE html>
-<?php 
-session_start();
-// connexion a la basse de donnée
-$bdd = new PDO('mysql:host=localhost;dbname=workshop2;charset=utf8','root','');
-
-?>
-
-
-
-
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
     <head>
         <meta charset="UTF-8">
@@ -18,94 +13,55 @@ $bdd = new PDO('mysql:host=localhost;dbname=workshop2;charset=utf8','root','');
     </head>
     <body>
         <?php
-        // put your code here
+        session_start();
+        $bdd = new PDO('mysql:host=localhost;dbname=workshop;charset=utf8', 'root', '');
+        
+        $req=$bdd->prepare('SELECT DISTINCT offre FROM matrice');
+        
+        $req->execute();
+        
+        $offres=$req->fetchAll();
+        
+        $req4=$bdd->prepare('SELECT nom, prenom FROM utilisateurs WHERE utilisateurs.id=1');
+        
+        $req4->execute();
+        
+        $lignes=$req4->fetchAll();
+        
         ?>
         <div id="container_accueil">
             <h1>U'Teach</h1>
             <nav class="menu">
-                <ul >
-                    <li ><a href="#">JAVAWEB</a>
-                        <ul>
-                            <li><a href="#">Cour 1</a></li>
-                            <li><a href="#">Cour 2</a></li>
-                            <li><a href="#">Cour 3</a></li>
-                        </ul> 
-                    </li>
-                    <li ><a href="#">MICROSOFT</a>
-                        <ul>
-                            <li><a href="#">Cour 1</a></li>
-                            <li><a href="#">Cour 2</a></li>
-                            <li><a href="#">Cour 3</a></li>
-                        </ul> 
-                    </li>
-                    <li><a href="#">PHP</a>
-                        <ul>
-                            <li><a href="#">Cour 1</a></li>
-                            <li><a href="#">Cour 2</a></li>
-                            <li><a href="#">Cour 3</a></li>
-                        </ul> 
-                    </li>
-                    <li ><a href="#">Delivery</a>
-                        <ul >
-                            <li><a href="#">Java</a></li>
-                            <li><a href="#">C</a></li>
-                            <li><a href="#">C++</a></li>
-                            <li><a href="#">C#</a></li>
-                            <li><a href="#">HTML/CSS</a></li>
-                            <li><a href="#">PHP</a></li>
-                            <li><a href="#">PYTHON</a></li>
-                            <li><a href="#">SQL</a></li>
+                    <ul>
+                        <?php
+                        foreach($offres as $offre) {
+                            $req2=$bdd->prepare('SELECT DISTINCT domaine FROM matrice WHERE offre="'.$offre['offre'].'"');
+                            $req2->execute();
+                            $domaines=$req2->fetchAll();
+                            echo '<li><a>', $offre['offre'],'</a><ul>';
 
-                        </ul> 
-                    </li>
-                    <li ><a href="#">UO Conception - Réalisation</a>
-                        <ul>
-                            <li><a href="#">Bases</a></li>
-                            <li><a href="#">Droit du travail</a></li>
-                            <li><a href="#">Environnement managerial</a></li>
-                        </ul> 
-                    </li>
-                    <li ><a href="#">UO Expertise</a>
-                        <ul>
-                            <li><a href="#">Cour 1</a></li>
-                            <li><a href="#">Cour 2</a></li>
-                            <li><a href="#">Cour 3</a></li>
-                        </ul> 
-                    </li>
-                    <li ><a href="#">UO Recette</a>
-                        <ul>
-                            <li><a href="#">Cour 1</a></li>
-                            <li><a href="#">Cour 2</a></li>
-                            <li><a href="#">Cour 3</a></li>
-                        </ul> 
-                    </li>
-                    <li ><a href="#">UO Administration</a>
-                        <ul>
-                            <li><a href="#">Cour 1</a></li>
-                            <li><a href="#">Cour 2</a></li>
-                            <li><a href="#">Cour 3</a></li>
-                        </ul> 
-                    </li>
-                    <li ><a href="#">UO Conduite de Projets</a>
-                        <ul>
-                            <li><a href="#"></a></li>
-                            <li><a href="#"></a></li>
-                            <li><a href="#">Cour 3</a></li>
-                        </ul> 
-                    </li>
-                    <li ><a href="#">UO AMOA</a>
-                        <ul>
-                            <li><a href="#">Cour 1</a></li>
-                            <li><a href="#">Cour 2</a></li>
-                            <li><a href="#">Cour 3</a></li>
-                        </ul> 
-                    </li>
-                </ul>    
+                            foreach($domaines as $domaine){
+                                $req3=$bdd->prepare('SELECT DISTINCT competence, id FROM matrice WHERE domaine="'.$domaine['domaine'].'"');
+                                $req3->execute();
+                                $competences=$req3->fetchAll();
+                            echo '<li><a>', $domaine['domaine'], '</a><ul>';
+
+                            foreach($competences as $competence) {
+                                echo "<li><a class='a_menu' href=Page_cours.php?id=".$competence['id'].">", $competence['competence'], "</a></li>";
+                            }
+                            echo '</ul></li>';
+                            }
+                            echo '</ul></li>';
+                            }
+                        ?>
+                    </ul>
             </nav>
             <div class="topnav">
                 <input type="text" placeholder="Search..">
             </div>
-            <div class="user"></div>
+            <div class="user">
+                <?php echo '<p>', $lignes[0]['prenom'], '<br>', $lignes[0]['nom'], '</p>'; ?>
+            </div>
             <button id='button' type="button" class="btn btn-secondary">Deconnexion</button>
             <div class="cours">Cours actuel</div>
             <div class="cours_2">Compétences validées</div>
